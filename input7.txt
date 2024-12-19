@@ -1,0 +1,46 @@
+g1 2 2 1
+pins g1 0 0 2 2 2 0
+g2 2 2 1
+pins g2 0 0 2 2 2 0
+g3 2 2 1
+pins g3 0 0 2 2
+g4 2 2 1
+pins g4 0 0 2 2
+g5 2 2 1
+pins g5 0 0 2 2
+g6 2 2 1
+pins g6 0 0 2 2
+g7 2 2 1
+pins g7 0 2 2 0 2 2
+g8 2 2 1
+pins g8 0 2 2 0
+g9 2 2 1
+pins g9 0 2 2 0
+g10 2 2 1
+pins g10 0 2 2 0
+g11 2 2 1
+pins g11 0 2 2 0
+g12 2 2 1
+pins g12 0 0 0 2 2 1
+g13 2 2 1 
+pins g13 0 1 2 1
+g14 2 2 1 
+pins g14 0 1 2 1
+g15 2 2 1
+pins g15 0 1 2 1
+wire_delay 1
+wire g1.p2 g2.p1
+wire g2.p2 g3.p1
+wire g3.p2 g4.p1
+wire g4.p2 g5.p1
+wire g5.p2 g6.p1
+wire g1.p3 g7.p1
+wire g7.p2 g8.p1
+wire g8.p2 g9.p1
+wire g9.p2 g10.p1
+wire g10.p2 g11.p1
+wire g2.p3 g12.p2
+wire g7.p3 g12.p1
+wire g12.p3 g13.p1
+wire g13.p2 g14.p1
+wire g14.p2 g15.p1

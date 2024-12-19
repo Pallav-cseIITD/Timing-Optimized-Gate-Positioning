@@ -1,0 +1,2 @@
+Error: Circuit contains a cyclic path
+Cycle: g1.p3 -> g2.p1 -> g2.p3 -> g3.p1 -> g3.p3 -> g1.p1
